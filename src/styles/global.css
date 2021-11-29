@@ -5,23 +5,30 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: black;
 }
 html,body{
     min-height: 100%;
 }
 body{
-    background: cornflowerblue;
+    background: white;
     background-repeat: no-repeat;
 }
 p{
     margin: 16px;
-    line-height: 1.5em;
+line-height: 1.5em;
 }
 /* layout and nav */
+.nameicon{
+    display: flex;
+}
 .layout{
     max-width: 1200px;
     margin: 0 auto;
+}
+img{
+    max-width: 50px;
+    padding: 1em;
 }
 nav{
     display: grid;
@@ -35,6 +42,7 @@ nav .links {
 nav a{
     display: inline-block;
     margin-left: 20px;
+    margin-top: 1.5em;
     font-weight: 400;
     padding-bottom: 8px;
     border-bottom: 3px solid transparent;

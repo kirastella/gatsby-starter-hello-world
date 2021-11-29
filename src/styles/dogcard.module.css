@@ -1,0 +1,13 @@
+.doggrid{
+    border: cornflowerblue solid 2px;
+    margin: 2em;
+    padding: 1em;
+}
+.doggrid > h3{
+    text-align: center;
+}
+.doggrid > img{
+    max-width: 350px; 
+    height: 300px;
+    align-items: center;
+}

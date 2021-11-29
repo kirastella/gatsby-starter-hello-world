@@ -16,7 +16,7 @@ export default function Home() {
     <section className={styles.photogrid}>
     <img src="/bordercollie.jpeg" alt="bordercollie" style={{maxWidth: '350px'}} />
     <img src="/browndog.jpeg" alt="dog"  style={{maxWidth: '350px'}} />
-    <img src="/somedog.jpeg" alt="dog"  style={{maxWidth: '350px'}} />
+    <img src="/somedog.jpeg" alt="dog" style={{maxWidth: '350px'}}   />
     </section>
     </Layout>
   )
